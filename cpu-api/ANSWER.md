@@ -107,3 +107,26 @@ hello world 100
 hello world from parent 102
 hello world from child 101
 ```
+
+### Q2
+both parent and child can access the file and write to it. Race condition problem can happen here as they're writing to the file at the same time
+
+### Q3
+we can use `sleep` in parent process to make it print later
+
+### Q4
+variants of `exec` is to serve different needs
+
+### Q5
+`wait` return PID of child process
+`wait` return -1 in child process
+
+### Q6
+`waitpid` wait exact the process using 1st param pid
+give more controll when we know the process of the child
+
+### Q7
+nothing printed from the child process
+
+### Q8
+// TODO
